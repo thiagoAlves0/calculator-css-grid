@@ -3,3 +3,9 @@ function adicionarCaracter(caracter){
 
     document.querySelector('.display').value = valorInput + caracter
 }
+
+function clean(){
+    document.querySelector('.display').value = ''
+}
+
+// 47:00

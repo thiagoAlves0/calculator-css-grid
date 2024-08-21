@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora | Display Grid</title>
 </head>
+
 <body>
     <div>
-        <input type="display">
+        <input class="display">
 
         <button class="gray-botton">AC</button>
-        <button class="gray-botton">+/-</button>
-        <button class="blue-botton">/</button>
-        <button class="blue-botton">*</button>
-        <button class="black-botton">7</button>
-        <button class="black-botton">8</button>
-        <button class="black-botton">9</button>
-        <button class="blue-botton">-</button>
-        <button class="black-botton">4</button>
-        <button class="black-botton">5</button>
-        <button class="black-botton">6</button>
-        <button class="blue-botton">+</button>
-        <button class="black-botton">1</button>
-        <button class="black-botton">2</button>
-        <button class="black-botton">3</button>
+        <button class="gray-botton" onclick="adicionarCaracter('+')">+/-</button>
+        <button class="blue-botton" onclick="adicionarCaracter('/')">/</button>
+        <button class="blue-botton" onclick="adicionarCaracter('*')">*</button>
+        <button class="black-botton" onclick="adicionarCaracter('7')">7</button>
+        <button class="black-botton" onclick="adicionarCaracter('8')">8</button>
+        <button class="black-botton" onclick="adicionarCaracter('9')">9</button>
+        <button class="blue-botton" onclick="adicionarCaracter('-')">-</button>
+        <button class="black-botton" onclick="adicionarCaracter('4')">4</button>
+        <button class="black-botton" onclick="adicionarCaracter('5')">5</button>
+        <button class="black-botton" onclick="adicionarCaracter('6')">6</button>
+        <button class="blue-botton" onclick="adicionarCaracter('+')">+</button>
+        <button class="black-botton" onclick="adicionarCaracter('1')">1</button>
+        <button class="black-botton" onclick="adicionarCaracter('2')">2</button>
+        <button class="black-botton" onclick="adicionarCaracter('3')">3</button>
         <button class="equal-botton">=</button>
-        <button class="black-botton zero">0</button>
-        <button class="black-botton">.</button>
+        <button class="black-botton zero" onclick="adicionarCaracter('0')">0</button>
+        <button class="black-botton" onclick="adicionarCaracter('.')">.</button>
 
     </div>
 </body>
 <script src="script.js"></script>
+
 </html>

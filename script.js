@@ -8,4 +8,14 @@ function clean(){
     document.querySelector('.display').value = ''
 }
 
-// 47:00
+function calcular(){
+    const valorInput = document.querySelector('.display').value
+
+    document.querySelector('.display').value = eval(valorInput)
+}
+
+function inverte(){
+    const valorInput = document.querySelector('.display').value
+
+    document.querySelector('.display').value = valorInput * -1
+}
